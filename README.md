@@ -229,6 +229,8 @@ This project provides practical experience with:
 <p align="center">
   <b>LoRa Module</b> · <b>ESP32</b> · <b>OLED RSSI Graph</b>
 </p>
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
