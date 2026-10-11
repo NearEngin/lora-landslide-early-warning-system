@@ -233,3 +233,8 @@ This project may be distributed under the MIT License. If you choose MIT, includ
 <p align="center">
   <b>LoRa Module</b> · <b>ESP32</b> · <b>OLED RSSI Graph</b>
 </p>
+## License
+
+This project may be distributed under the MIT License. If you choose MIT, include a `LICENSE` file with the appropriate copyright notice.
+
+---
