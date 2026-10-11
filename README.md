@@ -62,20 +62,26 @@ The architecture is planned for multiple distributed sensor nodes. The number of
 | USB cables | Powering boards and uploading firmware |
 | Jumper wires | Hardware connections and testing |
 
-### Planned hardware
+## Hardware Requirements
 
 | Component | Purpose |
 |---|---|
-| MPU6050 accelerometer/gyroscope | Monitor tilt and vibration-related motion |
-| Soil moisture sensors | Measure soil moisture conditions |
-| Additional ESP32 nodes | Distributed slope monitoring |
-| Compatible LoRa antennas | Wireless communication |
-| Sand/soil model | Simulate slope movement and failure conditions |
-| OLED display | Display received measurements and signal information |
-| LEDs and buzzer | Provide visual and audible warnings |
-| Rainfall measurement sensor | Optional monitoring of rainfall conditions |
+| ESP32 DevKit V1 | Microcontroller for sensor nodes and central receiver |
+| RA-02 SX1278 LoRa modules | Long-range wireless communication between nodes |
+| Compatible LoRa antennas | Wireless signal transmission and reception |
+| MPU6050 accelerometer/gyroscope | Monitor tilt, acceleration, and vibration-related motion |
+| Capacitive soil moisture sensors | Measure soil moisture conditions |
+| VL53L0X time-of-flight distance sensors | Measure surface displacement in the simulated landslide model |
+| Rainfall measurement sensor | Monitor rainfall conditions |
+| 1.3-inch, 128×64 I2C OLED (SH1106) | Display received measurements, RSSI, and system status |
+| LEDs | Provide visual warning indications |
+| Buzzer | Provide audible alerts |
+| Breadboards | Prototype and connect electronic components |
+| Jumper wires | Connect sensors, microcontrollers, and modules |
+| USB cables | Power ESP32 boards and upload firmware |
+| Sand/soil model | Simulate slope movement and landslide conditions |
 
-The final sensor selection, node count, and physical arrangement will be determined during the integration and testing phases.
+> **Note:** The LoRa communication prototype is completed. Sensor integration, the simulated landslide model, and warning logic remain planned development phases. The number of sensors and ESP32 nodes will be finalized during implementation.
 
 ## Phase 1: LoRa Communication Testing
 
