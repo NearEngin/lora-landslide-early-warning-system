@@ -213,11 +213,7 @@ This project provides practical experience with:
 - Embedded graphics and circular buffers.
 - Wireless communication testing and debugging.
 
-## License
 
-This project may be distributed under the MIT License. If you choose MIT, include a `LICENSE` file with the appropriate copyright notice.
-
----
 
 **Project:** ESP32 LoRa RSSI Graph Monitor  
 **Platform:** ESP32 + SX1278 + SH1106 OLED  
@@ -235,6 +231,6 @@ This project may be distributed under the MIT License. If you choose MIT, includ
 </p>
 ## License
 
-This project may be distributed under the MIT License. If you choose MIT, include a `LICENSE` file with the appropriate copyright notice.
+This project is licensed under the [MIT License](LICENSE).
 
----
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of this software, subject to the terms of the license.
